@@ -1,13 +1,14 @@
 export const siteConfig = {
-  title: "Next Litebans",
+  title: "Lumika Punishments",
   logo: "/logo.webp",
   favicon: "/logo.webp",
   languages: {
     available: [
+      "ru",
       "en",
       "es",
     ],
-    default: "en",
+    default: "ru",
   },
   console: {
     name: "Console", // Just for filter badge
@@ -16,19 +17,19 @@ export const siteConfig = {
     body: "/console-body.webp",
     bust: "/console-bust.webp",
   },
-  defaultPlayerLookup: "YoSoyVilla",
+  defaultPlayerLookup: "Vinely",
   // When enabled, body and bust images will show a steve skin
   bedrock: {
     enabled: false,
     prefix: "BP_",
   },
   openGraph: {
-    dateFormat: "yyyy-MM-dd hh:mm:ss",
+    dateFormat: "dd-MM-yyyy hh:mm:ss",
     pages: {
       main: {
         // Placeholders: {total}, {bans}, {mutes}, {kicks}, {warns}
         description: `
-        next-litebans punishment web interface.
+        Lumika Punishments.
 
         Total punishments: {total}
 
